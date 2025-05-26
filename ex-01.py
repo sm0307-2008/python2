@@ -1,8 +1,10 @@
 A = 10
 B = 20
 
-A = 2*A
-B = (A/2)
+temp = A
 
-print(A)
-print(B)
+A = B
+B = temp
+
+print("o valor de A", A)
+print("o valor de B", B)
